@@ -1,0 +1,139 @@
+h1 {
+    font-size: 3vw;
+    text-align: center;
+}
+
+p {
+    font-size: 1.5em;
+    text-align: justify;
+}
+
+
+body { 
+    background-color: rgb(2, 152, 211);
+    color: black;
+    height: auto;
+    width: auto;
+    margin: 0px 25px 30px 25px;
+    border: 2px solid black;
+    position: relative;
+}
+
+header{
+    border: 5px dotted rgb(238, 6, 6);
+    background-color: white;
+    text-align: center;
+
+}
+
+#imgheader {
+    width:100%; 
+    max-width: 1200px;
+    height: auto;
+}
+
+nav {
+    background-color: yellow;
+    border: 3px dotted black;
+    padding: 10px;
+    margin: 10px;
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+
+
+/* Onglets de navigation */
+.navonglet {
+    padding: 5px;
+    margin: 5px;
+    width: 100%;
+    border: 3px solid black;
+    font-size: 2em;
+}
+
+
+/* GRID pour #mainProfile & #mainCV */
+.grid {
+    display:grid;
+    height: auto;
+    width: auto;
+    border: 2px solid #c300ff;
+    grid-template-columns: 2fr 3fr;
+}
+
+
+
+
+
+/* Dashboard principal #mainProfile */
+#mainProfile {
+    border: 3px dotted rgb(5, 255, 201);
+    padding: 10px;
+    margin: 10px;
+    height: 100%;
+    display: flex;
+    flex-direction: flex-end;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr ;
+}
+
+/* Titres dans les cases + cases de section */
+.h2ingrid {
+    font-size: 10vw;
+}
+.personalinfo {    
+    border: 1px dotted black;
+    padding: 5px;
+}
+.softskills {
+    border: 1px dotted black;
+    padding: 5px;
+}
+.hardskills {
+    border: 1px dotted black;
+    padding: 5px;
+}
+.languages {
+    border: 1px dotted black;   
+    padding: 5px;
+}
+/* --------------------------------- */
+
+
+
+/* Dashboard principal #mainCV */
+#mainCV {
+    border: 3px dotted rgb(241, 5, 5);
+    margin: 10px;
+    padding: 10px;
+    height: 100%;
+    max-width: 100%;
+    
+
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1%;
+
+}
+.experience {    
+    border: 1px dotted black;
+    padding: 5px;
+}
+.education {
+    border: 1px dotted black;
+    padding: 5px;
+}
+.miscellaneouswork {
+    border: 1px dotted black;
+    padding: 5px;
+}
+.interests {
+    border: 1px dotted black;
+    padding: 5px;
+}
+/* ------------------------------ */

@@ -46,12 +46,12 @@ nav {
     background-color: rgba(220, 248, 238, 0.759);
     border: 3px dotted black;
     padding: 15px;
-    margin: 10px;
-    max-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     flex-direction: row;
     text-align: center;
-    max-width: 800px;
+    max-width: 900px;
 }
 /* Onglets de navigation */
 .navonglet {
